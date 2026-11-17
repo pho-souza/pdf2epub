@@ -1,0 +1,45 @@
+{
+  "_comment": "Presets do pdf2epub. Use: --preset NOME. O preset sobrepõe 'default'; opções na linha de comando sobrepõem o preset. width/margin/dpi/color em null usam o padrão do 'device'.",
+
+  "default": {
+    "device": "xteink",
+    "footnotes": "end",
+    "formulas": "image",
+    "width": null,
+    "margin": null,
+    "dpi": null,
+    "color": null,
+    "chart_margin": 21,
+    "min_fig": 40,
+    "text_tables": false,
+    "lang": "pt"
+  },
+
+  "xteink": {
+    "device": "xteink",
+    "footnotes": "end",
+    "formulas": "image",
+    "width": 480,
+    "margin": 10,
+    "dpi": 220,
+    "color": false,
+    "chart_margin": 21,
+    "min_fig": 40,
+    "text_tables": false,
+    "lang": "pt"
+  },
+
+  "kindle": {
+    "device": "normal",
+    "footnotes": "linked",
+    "formulas": "image",
+    "width": 1072,
+    "margin": 20,
+    "dpi": 200,
+    "color": true,
+    "chart_margin": 21,
+    "min_fig": 40,
+    "text_tables": false,
+    "lang": "pt"
+  }
+}
