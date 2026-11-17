@@ -2,7 +2,7 @@
   "_comment": "Presets do pdf2epub. Use: --preset NOME. O preset sobrepõe 'default'; opções na linha de comando sobrepõem o preset. width/margin/dpi/color em null usam o padrão do 'device'.",
 
   "default": {
-    "device": "xteink",
+    "device": "normal",
     "footnotes": "end",
     "formulas": "image",
     "width": null,
